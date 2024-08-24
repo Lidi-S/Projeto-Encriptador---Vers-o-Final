@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header
+        class="titulo">
+    <p>Desafio Desencriptador Alura 2024</p>
+    </header>
+<main>
+    <section>
+        <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+        <div class="informacao">
+            <h3>Apenas letras minusculas e sem acento</h3>
+        </div>
+        <div class="botoes">
+            <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+        </div>
+    </section>
+    
+    <section>
+        <textarea class="mensagem" cols="20" rows="10" readonly></textarea>
+        <div class="textofuturo">
+            <p>Seu texto aparecerá aqui</p>
+        </div>
+        <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+        <div id="mensagem-copiado" class="mensagem-copiado">Texto copiado!</div>
+    </section>
+</main>
+<script src="script.js"></script>
+
+
+<footer class="madeby">
+    <p>Made by Lidiane Soares - 2024</p>
+</footer>
+
+</body>
+</html>
+
